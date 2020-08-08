@@ -1,0 +1,38 @@
+#main-header img {
+  width: 100%;
+  /*height: 85.1%;*/
+  height:395px;
+}
+
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#main-header .backblack{
+  background-color: #00000083;
+}
+
+.bg-black {
+  color: #fff;
+  background: #000;
+}
+
+.form-group .red{
+  background-color: rgba(165, 4, 4, 0.733);
+}
+.form-group .black{
+  background-color: rgba(97, 90, 90, 0.404);
+}
+
+
+@media(min-width:1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
